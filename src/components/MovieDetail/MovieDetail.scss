@@ -1,0 +1,56 @@
+.movie-detail {
+  background: #fff;
+  width: 400px;
+  padding: 16px;
+  transition: all 0.2s;
+  border-radius: 4px;
+  box-shadow: 0 0 20px 0px #535353;
+}
+
+.movie-detail--thumnail {
+  min-height: 207px;
+}
+
+.movie-detail--content {
+  margin-top: 8px;
+  & > h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.overview {
+  line-height: 20px;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.release-date {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.genres {
+  display: flex;
+  gap: 4px;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.genres--list {
+  display: flex;
+  gap: 4px;
+  font-size: 12px;
+  flex-wrap: wrap;
+  span {
+    font-size: 12px;
+    border: 1px solid #c3c3c3;
+    padding: 3px 8px 4px;
+    border-radius: 6px;
+    line-height: 100%;
+  }
+}
+
+.action {
+  margin-top: 20px;
+}

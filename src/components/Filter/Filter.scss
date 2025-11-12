@@ -1,0 +1,13 @@
+.filter {
+  display: flex;
+  gap: 8px;
+  align-items: end;
+  & > p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .button {
+    width: 150px;
+  }
+}

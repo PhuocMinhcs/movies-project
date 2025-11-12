@@ -1,0 +1,75 @@
+$optionIndex: 9999;
+$optionOverlayIndex: calc($optionIndex - 1);
+
+.select {
+  position: relative;
+  min-width: 180px;
+  max-width: 250px;
+
+  .value {
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all ease 0.2s;
+    font-size: 14px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #757575;
+    &.has-value {
+      color: #000;
+    }
+    &:hover {
+      box-shadow: 0 0 10px 0 #bbb;
+    }
+  }
+
+  .options {
+    position: absolute;
+    left: 0;
+    top: 42px;
+    height: 250px;
+    width: 100%;
+    overflow-y: auto;
+    z-index: $optionIndex;
+    background: #fff;
+    padding: 8px 0;
+    box-shadow: 0 0 10px 0 #555555;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    display: none;
+    ul,
+    li {
+      list-style: none;
+      padding: 0;
+      font-size: 14px;
+    }
+    li {
+      padding: 4px 12px;
+      cursor: pointer;
+      &:hover {
+        background: #e7e7e7;
+      }
+    }
+  }
+
+  .show {
+    display: block;
+  }
+
+  .selected {
+    background: #e7e7e7;
+  }
+}
+
+.option-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: $optionOverlayIndex;
+}
