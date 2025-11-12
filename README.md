@@ -16,11 +16,21 @@
 - [x] Simple pagination.
 - [x] Skeleton loading.
 
+## Project Preview
+
+![Project Preview](./public/project-preview.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### Install dependencies
+
+`yarn install`
+
+### Start project
+
+`[port=your target port] yarn start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:[your target port or 3000 by default]](http://localhost:3000) to view it in the browser.
