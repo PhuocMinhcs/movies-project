@@ -18,7 +18,7 @@
 
 ## Project Preview
 
-![Project Preview](./public/project-preview.gif)
+[Project Preview video](https://app.screencastify.com/watch/XgLt9nOMpxVlsu4WNJA1?checkOrg=ae3e7278-654c-45a6-b820-ff6231db484f)
 
 ## Available Scripts
 
